@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "vision-trainer-spfx-client-side-solution",
+    "id": "df69b5e9-4f27-4da1-bf9a-a5a248965250",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/vision-trainer-spfx.sppkg"
+  }
+}

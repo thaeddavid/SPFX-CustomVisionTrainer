@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "vision-trainer-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/visionTrainer/VisionTrainerWebPart.js",
+          "manifest": "./src/webparts/visionTrainer/VisionTrainerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "VisionTrainerWebPartStrings": "lib/webparts/visionTrainer/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

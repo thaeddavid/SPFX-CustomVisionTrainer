@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "f7810488-f7e3-4238-ab35-0e90d492e8c4",
+  "alias": "VisionTrainerWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "VisionTrainer" },
+    "description": { "default": "Reads images within a SharePoint library and sends to the Azure Vision API" },
+    "officeFabricIconFontName": "RedEye",
+    "properties": {
+      "description": "VisionTrainer"
+    }
+  }]
+}
